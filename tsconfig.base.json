@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-experiment/hello": ["packages/hello/src/index.ts"]
+      "@nx-experiment/hello": ["packages/hello/src/index.ts"],
+      "@nx-experiment/liba": ["packages/liba/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
