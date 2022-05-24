@@ -12,3 +12,12 @@ nx test hello
 ```
 nx g @nrwl/js:library --name=liba --buildable
 ```
+
+## Connect the libraries together
+- Add an import to the hello.ts file
+- Use the library
+- Update the test
+```
+nx build hello
+nx test hello
+```
